@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Surprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    /* Landing Page */
+    .landing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #ce2c2c;
+      text-align: center;
+      color: white;
+    }
+    .landing h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    /* Personalized Message Section */
+    .message {
+      padding: 50px 20px;
+      background-color: #ffebcd;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    /* Photo Gallery */
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      background-color: #f9d5d3;
+    }
+    .gallery img {
+      width: 250px;
+      height: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Relationship Timeline */
+    .timeline {
+      padding: 40px 20px;
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+    }
+    .timeline h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .timeline ul {
+      list-style: none;
+      padding: 0;
+    }
+    .timeline li {
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+    }
+
+    /* Favorite Quotes */
+    .quotes {
+      padding: 40px 20px;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+    .quotes blockquote {
+      font-size: 1.5rem;
+      font-style: italic;
+      color: #ff6f61;
+      margin: 20px;
+    }
+
+    /* Shared Interests */
+    .interests {
+      padding: 40px 20px;
+      background-color: #f9d5d3;
+      text-align: center;
+    }
+    .interests h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .interests ul {
+      list-style: none;
+      padding: 0;
+    }
+    .interests li {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    /* Interactive Features */
+    .quiz {
+      padding: 40px 20px;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+    .quiz h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .quiz button {
+      padding: 15px 30px;
+      background-color: #ff6f61;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+      transition: background-color 0.3s;
+    }
+    .quiz button:hover {
+      background-color: #d35454;
+    }
+
+    /* Future Plans Section */
+    .future-plans {
+      padding: 40px 20px;
+      background-color: #ffebcd;
+      text-align: center;
+    }
+    .future-plans h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    /* Music Playlist Section */
+    .playlist {
+      padding: 40px 20px;
+      background-color: #f9d5d3;
+      text-align: center;
+    }
+    .playlist iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 380px;
+      border-radius: 10px;
+    }
+
+    /* Love Notes Section */
+    .love-notes {
+      padding: 40px 20px;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+    .love-notes h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .love-notes input {
+      padding: 10px;
+      font-size: 1.2rem;
+      width: 80%;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .love-notes button {
+      padding: 10px;
+      background-color: #ff61c5;
+      color: white;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .love-notes button:hover {
+      background-color: #d35454;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Landing Page -->
+  <div class="landing">
+    <h1>Welcome to Your Valentine's Day Surprise!</h1>
+    <img src="Heart.gif" alt="it is my Heart" width="230" height="180">
+  </div>
+
+  <!-- Personalized Message -->
+  <section class="message">
+    <h2>My Dearest Love,</h2>
+    <p>I wanted to create something special for you this Valentine's Day. You mean the world to me, and I love the way we make each other smile. Thank you for all the wonderful memories, and I look forward to making many more. <br>Forever Yours.</p>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="gallery">
+    <h2>Our Memories Together</h2>
+    <img src="photo1.jpg" alt="First date">
+    <img src="photo2.jpg" alt="Trip together">
+    <img src="photo3.jpg" alt="Laughing together">
+    <img src="photo4.jpg" alt="Our first holiday">
+  </section>
+
+  <!-- Relationship Timeline -->
+  <section class="timeline">
+    <h2>Our Journey Together</h2>
+    <ul>
+      <li>First Date - January 15, 2022</li>
+      <li>First Trip - June 5, 2022</li>
+      <li>Anniversary - February 14, 2023</li>
+    </ul>
+  </section>
+
+  <!-- Favorite Quotes -->
+  <section class="quotes">
+    <h2>Our Favorite Quotes</h2>
+    <blockquote>"Love is not about how many days, months, or years you have been together. Love is about how much you love each other every single day."</blockquote>
+    <blockquote>"Where there is love, there is life." - Mahatma Gandhi</blockquote>
+  </section>
+
+  <!-- Shared Interests -->
+  <section class="interests">
+    <h2>Things We Both Love</h2>
+    <ul>
+      <li>Watching romantic comedies</li>
+      <li>Reading books together</li>
+      <li>Exploring new places</li>
+      <li>Cooking together</li>
+      <li>Listening to our favorite music</li>
+    </ul>
+  </section>
+
+  <!-- Interactive Features -->
+  <section class="quiz">
+    <h2>How Well Do You Know Me?</h2>
+    <button onclick="alert('You know me so well!')">Take the Quiz!</button>
+  </section>
+
+  <!-- Future Plans -->
+  <section class="future-plans">
+    <h2>Our Future Together</h2>
+    <p>We have so many amazing plans ahead! I can't wait to explore new places, achieve our dreams, and create more memories.</p>
+  </section>
+
+  <!-- Music Playlist -->
+  <section class="playlist">
+    <h2>Our Love Playlist</h2>
+    <iframe src="https://open.spotify.com/playlist/" allow="encrypted-media"></iframe>
+  </section>
+
+  <!-- Love Notes -->
+  <section class="love-notes">
+    <h2>Leave Me a Love Note</h2>
+    <input type="text" id="noteInput" placeholder="Write your note here...">
+    <button onclick="postLoveNote()">Post Love Note</button>
+    <div id="loveNotes"></div>
+  </section>
+
+  <script>
+    function postLoveNote() {
+      const noteInput = document.getElementById('noteInput').value;
+      if (noteInput) {
+        const noteDiv = document.createElement('div');
+        noteDiv.textContent = noteInput;
+        document.getElementById('loveNotes').appendChild(noteDiv);
+        document.getElementById('noteInput').value = '';
+      }
+    }
+  </script>
+
+</body>
+</html>
